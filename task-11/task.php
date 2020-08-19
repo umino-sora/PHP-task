@@ -6,7 +6,7 @@ $b = 7;
 echo $a + $b;
 
 //課題2
-$array_month = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
+$array_month = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月",];
 echo $array_month[7];
 
 //課題3
@@ -33,7 +33,7 @@ $calender_2018 = [
     "September" => "9月",
     "October" => "10月",
     "November" => "11月",
-    "December" => "12月"
-    ];
+    "December" => "12月",
+];
     
-    echo $calender_2018 ["December"];
+echo $calender_2018 ["December"];
