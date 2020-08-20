@@ -1,39 +1,39 @@
 <?php
 
 //課題1
-function sum($a) {
-    $result = $a *2;
+function double($number) {
+    $result = $number * 2;
     return $result;
 }
-echo sum(5);
+echo double(5);
 
 //課題2
-function f($a, $b) {
+function sum($a, $b) {
     $result = $a + $b;
     return $result;
 }
-echo f(10, 5);
+echo sum(10, 5);
 
 //課題3
-function multiply_array($arr) {
+function multiply($numbers) {
     $result = 1;
-    foreach ($arr as $a) {
-        $result *= $a;
+    foreach ($numbers as $number) {
+        $result *= $number;
     }
     return $result;
 }
-echo multiply_array(array(1, 3, 5, 7, 9,));
+echo multiply(array(1, 3, 5, 7, 9,));
 
 //課題4
-function max_array($arr) {
-    $max_number = $arr[0];
-    foreach ($arr as $a) {
-        if ($max_number < $a);
-        $max_number = $a;
+function return_max($numbers) {
+    $max_number = $numbers[0];
+    foreach ($numbers as $number) {
+        if ($max_number < $number);
+        $max_number = $number;
     }
     return $max_number;
 }
-echo max_array(array(3, 2, 7, 4, 8,));
+echo return_max(array(3, 2, 7, 4, 8,));
 
 //課題5
 ////strip_tags — 文字列から HTML および PHP タグを取り除く
